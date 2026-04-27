@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
-  --primary: #2563eb;
-  --primary-hover: #1d4ed8;
-  --background: #f8fafc;
-  --surface: #ffffff;
-  --text: #0f172a;
-  --text-muted: #64748b;
-  --border: #e2e8f0;
-  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --radius: 0.75rem;
+  --primary: #61dafb;
+  --primary-hover: #21a1c4;
+  --background: #282c34;
+  --surface: #20232a;
+  --text: #ffffff;
+  --text-muted: #abb2bf;
+  --border: #3e4451;
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -2px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -4px rgba(0, 0, 0, 0.4);
+  --radius: 0.5rem;
 }
 
 * {
@@ -128,6 +128,8 @@ body {
   font-size: 1rem;
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
   outline: none;
+  background-color: var(--background);
+  color: var(--text);
 }
 
 .form-input:focus {
